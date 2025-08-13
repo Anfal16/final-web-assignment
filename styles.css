@@ -1,0 +1,156 @@
+body {
+    font-family: 'Playfair Display','Libertinus Mono','Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #fbf6f5;
+    color: #4B3026;
+}
+ title {
+    text-align: center;
+    font-size: x-large;
+ }
+
+ nav {
+    background-color: #4B3026;
+    padding: 15px;
+    text-align: center;         
+ }
+
+ nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Hero {
+  background-image: url(hero-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 120px 20px;
+  color: white;
+  height: 50vh;
+  
+}
+
+.Hero h1 {
+  font-size: 80px;
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Hero p {
+  font-size: 26px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+  background-color: #fff1e6;
+  font-family: 'Playfair Display', 'Libertinus Mono' 'Times New Roman', Times, serif;
+  font-size: 22px;
+  padding: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 280px;
+  padding: 10px;
+  background-color: #fff1e6;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: #4B3026;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    display: none;
+    flex-direction: column;
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+}
+
+.youtube {
+  text-align: center;
+  border-radius: 8px;
+}
+
+.youtube p {
+  color: #4B3026;
+  font-size: 20px;
+}
+
+.cards > h2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+footer {
+  background-color: #4B3026;
+  color: #f5f1e7;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+}
