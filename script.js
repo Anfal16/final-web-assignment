@@ -20,6 +20,9 @@ const galleryImages = [
   "henna15.jpg",
   "henna16.jpg",
   "henna17.jpg",
+  "henna18.jpg",
+  "henna19.jpg",
+  "henna20.jpg",
 ];
 
 const galleryContainer = document.getElementById("gallery");
