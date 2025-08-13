@@ -1,7 +1,7 @@
 body {
     font-family: 'Playfair Display','Libertinus Mono','Times New Roman', Times, serif;
     margin: 0;
-    background-color: #fbf6f5;
+    background-color: #fff1e6;
     color: #4B3026;
 }
  title {
@@ -31,6 +31,10 @@ body {
   padding: 120px 20px;
   color: white;
   height: 50vh;
+  display: flex;               
+  flex-direction: column;      
+  justify-content: center;     
+  align-items: center;         
   
 }
 
@@ -54,28 +58,7 @@ body {
   background-color: #fff1e6;
   font-family: 'Playfair Display', 'Libertinus Mono' 'Times New Roman', Times, serif;
   font-size: 22px;
-  padding: 30px;
-}
-
-.cards {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-  flex-wrap: wrap;
-}
-
-.card {
-  width: 280px;
-  padding: 10px;
-  background-color: #fff1e6;
-  text-align: center;
-}
-
-.card img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+  padding: 50px;
 }
 
 nav {
@@ -133,6 +116,7 @@ nav {
 .youtube {
   text-align: center;
   border-radius: 8px;
+  min-height: 250px;
 }
 
 .youtube p {
@@ -140,15 +124,9 @@ nav {
   font-size: 20px;
 }
 
-.cards > h2 {
-  text-align: center;
-  width: 100%;
-  margin-bottom: 20px;
-  font-size: 30px;
-}
-
 footer {
   background-color: #4B3026;
+  size: 35px;
   color: #f5f1e7;
   text-align: center;
   padding: 15px 10px;
