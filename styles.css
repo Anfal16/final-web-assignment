@@ -1,7 +1,7 @@
 body {
     font-family: 'Playfair Display','Libertinus Mono','Times New Roman', Times, serif;
     margin: 0;
-    background-color: #fff1e6;
+    background-color: #f5f1e7;
     color: #4B3026;
 }
  title {
@@ -55,7 +55,7 @@ body {
 
 .content {
   text-align: center;
-  background-color: #fff1e6;
+  background-color:#f5f1e7;
   font-family: 'Playfair Display', 'Libertinus Mono' 'Times New Roman', Times, serif;
   font-size: 22px;
   padding: 50px;

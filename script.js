@@ -1,6 +1,6 @@
-document.querySelector('.nav-toggle').onclick = function() {
-  document.querySelector('.navbar').classList.toggle('active');
-};
+document.querySelector('.nav-toggle').addEventListener('click', function() {
+document.querySelector('.navbar').classList.toggle('active');
+});
 
 const galleryImages = [
   "henna1.jpg",
