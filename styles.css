@@ -112,13 +112,18 @@ nav {
     display: block;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .Hero h1 {
     font-size: 30px;
   }
   .Hero p,
   .about-section p {
     font-size: 20px;
+  }
+  .Hero {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
   }
 }
 
